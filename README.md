@@ -9,7 +9,8 @@ Welcome to the Checkout Experience project brought to you by GROWW! This assignm
 
 ### ***Payment Options Page***
 - Payment Modes: Presents users with various payment options to choose from using the Payemnt Methods available in the api.
-
+- Validation: The user is now prompted to select a payment option (e.g., UPI, card) before confirming the payment. An error notification using `react-hot-toast` is displayed if no option is selected.
+  
 ### ***Order Confirmation Page*** 
 - Random Order Delivery Status: Generates a random order delivery status, encompassing delivered, in-transit, and shipped scenarios.
 - Order Summary: Provides details on the order, the selected payment method, and a delivery status message.
@@ -25,6 +26,7 @@ Welcome to the Checkout Experience project brought to you by GROWW! This assignm
 # Zustand (for state managements)
 # material ui
 # Axios (to fetch the REST APIs)
+# react-hot-toast (Notification library)
 ```
 
 ## Handling Various Scenarios
@@ -36,4 +38,4 @@ _Feel free to explore, contribute, and enhance the checkout experience!_
 
 ## SCREENSHOTS
 
-
+<h3 align="center">Notes</h3><img width="1440" alt="x2" src="https://github.com/sejal8745/SheHacks_Team-017/blob/master/src/Assets/notes.PNG">
